@@ -61,4 +61,4 @@ module Spree
   end
 end
 
-::Spree::OrdersController.prepend(Spree::OrdersControllerDecorator)
+# ::Spree::OrdersController.prepend(Spree::OrdersControllerDecorator)

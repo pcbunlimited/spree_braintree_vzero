@@ -35,4 +35,4 @@ module Spree
   end
 end
 
-::Spree::CheckoutController.prepend(Spree::CheckoutControllerDecorator)
+# ::Spree::CheckoutController.prepend(Spree::CheckoutControllerDecorator)
