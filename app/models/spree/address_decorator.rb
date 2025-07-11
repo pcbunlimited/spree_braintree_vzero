@@ -15,4 +15,4 @@ module Spree
   end
 end
 
-# ::Spree::Address.prepend(Spree::AddressDecorator)
+::Spree::Address.prepend(Spree::AddressDecorator)

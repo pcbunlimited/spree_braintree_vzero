@@ -152,4 +152,4 @@ module Spree
   end
 end
 
-# ::Spree::Order.prepend(Spree::BraintreeVzero::OrderDecorator)
+::Spree::Order.prepend(Spree::BraintreeVzero::OrderDecorator)

@@ -3,7 +3,7 @@ module Spree
     module PreferableDecorator
       private
 
-      def convert_preference_value(value, type)
+      def convert_preference_value_2(value, type)
         case type
         when :string, :text, :select
           value.to_s
@@ -51,4 +51,4 @@ module Spree
   end
 end
 
-# ::Spree::Preferences::Preferable.prepend(Spree::Preferences::PreferableDecorator)
+::Spree::Preferences::Preferable.prepend(Spree::Preferences::PreferableDecorator)
