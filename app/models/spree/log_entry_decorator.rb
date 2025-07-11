@@ -49,4 +49,4 @@ module Spree
   end
 end
 
-::Spree::LogEntry.prepend(Spree::LogEntryDecorator)
+# ::Spree::LogEntry.prepend(Spree::LogEntryDecorator)

@@ -51,4 +51,4 @@ module Spree
   end
 end
 
-::Spree::Preferences::Preferable.prepend(Spree::Preferences::PreferableDecorator)
+# ::Spree::Preferences::Preferable.prepend(Spree::Preferences::PreferableDecorator)

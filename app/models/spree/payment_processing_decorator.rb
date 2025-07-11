@@ -70,4 +70,4 @@ module Spree
   end
 end
 
-::Spree::Payment.prepend(Spree::PaymentProcessingDecorator)
+# ::Spree::Payment.prepend(Spree::PaymentProcessingDecorator)
